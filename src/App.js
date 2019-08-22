@@ -5,7 +5,6 @@ import About from "./About";
 import Projects from "./Projects";
 import Courses from "./Courses";
 import { Button } from "antd";
-import CV from "./CV.pdf";
 
 import memyselfandI from "./memyselfandI.jpg";
 
@@ -33,9 +32,13 @@ function App() {
               </Link>
             </Button>
             <Button>
-              <Link className="linkz" to="/cv.pdf" download>
+              <a
+                className="linkz"
+                href="https://github.com/djolesusername/aboutme/raw/master/src/cv.pdf"
+                target="_blank"
+              >
                 CV
-              </Link>
+              </a>
             </Button>
           </Button.Group>
         </div>
