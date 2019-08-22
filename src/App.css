@@ -1,0 +1,64 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  position: absolute;
+  align-items: center;
+}
+
+.App-nav {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.linkz {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 7%;
+}
+
+#memyselfandI {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.card,
+.about {
+  margin-bottom: 10px !important;
+  max-width: 750px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+  max-height: 100%;
+}
+h1 {
+  font-size: 1.1em;
+}
+.fab,
+.far {
+  padding: 10px;
+  font-size: 32px;
+  color: grey;
+}
+
+.fab:hover,
+.far:hover {
+  color: #61dafb;
+}
+h2,
+h3 {
+  font-size: calc(10px + 2vmin);
+}
+.aboutp {
+  font-size: calc(10px + 0.6vmin) !important;
+  padding-bottom: 10%;
+}
